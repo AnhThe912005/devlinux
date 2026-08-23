@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <time.h>
 #include <unistd.h>
 
 #define LOG_ERR     "<3>"
@@ -9,6 +10,8 @@
 int main(void) {
     setbuf(stdout, NULL);
     setbuf(stderr, NULL);
+
+    srand(time(NULL));
 
     int cycle = 0;
     int elapsed = 0;

@@ -1,0 +1,117 @@
+=== 1. Full service log ===
+Aug 23 08:37:55 theanh-VMware-Virtual-Platform systemd[1]: Started logger.service - Logger service demonstrating severity levels and crash.
+Aug 23 08:37:55 theanh-VMware-Virtual-Platform logger[36443]: Service running normally, cycle 1
+Aug 23 08:37:55 theanh-VMware-Virtual-Platform logger[36443]: Memory usage high: 94%
+Aug 23 08:37:55 theanh-VMware-Virtual-Platform logger[36443]: Failed to connect to database, retry 1
+Aug 23 08:37:57 theanh-VMware-Virtual-Platform logger[36443]: Service running normally, cycle 2
+Aug 23 08:37:57 theanh-VMware-Virtual-Platform logger[36443]: Memory usage high: 86%
+Aug 23 08:37:57 theanh-VMware-Virtual-Platform logger[36443]: Failed to connect to database, retry 2
+Aug 23 08:37:59 theanh-VMware-Virtual-Platform logger[36443]: Service running normally, cycle 3
+Aug 23 08:37:59 theanh-VMware-Virtual-Platform logger[36443]: Memory usage high: 91%
+Aug 23 08:37:59 theanh-VMware-Virtual-Platform logger[36443]: Failed to connect to database, retry 3
+Aug 23 08:38:01 theanh-VMware-Virtual-Platform logger[36443]: Service running normally, cycle 4
+Aug 23 08:38:01 theanh-VMware-Virtual-Platform logger[36443]: Memory usage high: 84%
+Aug 23 08:38:01 theanh-VMware-Virtual-Platform logger[36443]: Failed to connect to database, retry 4
+Aug 23 08:38:03 theanh-VMware-Virtual-Platform logger[36443]: Service running normally, cycle 5
+Aug 23 08:38:03 theanh-VMware-Virtual-Platform logger[36443]: Memory usage high: 87%
+Aug 23 08:38:03 theanh-VMware-Virtual-Platform logger[36443]: Failed to connect to database, retry 5
+Aug 23 08:38:05 theanh-VMware-Virtual-Platform logger[36443]: Service running normally, cycle 6
+Aug 23 08:38:05 theanh-VMware-Virtual-Platform logger[36443]: Memory usage high: 87%
+Aug 23 08:38:05 theanh-VMware-Virtual-Platform logger[36443]: Failed to connect to database, retry 6
+Aug 23 08:38:07 theanh-VMware-Virtual-Platform logger[36443]: Service running normally, cycle 7
+Aug 23 08:38:07 theanh-VMware-Virtual-Platform logger[36443]: Memory usage high: 92%
+Aug 23 08:38:07 theanh-VMware-Virtual-Platform logger[36443]: Failed to connect to database, retry 7
+Aug 23 08:38:09 theanh-VMware-Virtual-Platform logger[36443]: Service running normally, cycle 8
+Aug 23 08:38:09 theanh-VMware-Virtual-Platform logger[36443]: Memory usage high: 84%
+Aug 23 08:38:09 theanh-VMware-Virtual-Platform logger[36443]: Failed to connect to database, retry 8
+Aug 23 08:38:11 theanh-VMware-Virtual-Platform logger[36443]: Service running normally, cycle 9
+Aug 23 08:38:11 theanh-VMware-Virtual-Platform logger[36443]: Memory usage high: 93%
+Aug 23 08:38:11 theanh-VMware-Virtual-Platform logger[36443]: Failed to connect to database, retry 9
+Aug 23 08:38:13 theanh-VMware-Virtual-Platform logger[36443]: Service running normally, cycle 10
+Aug 23 08:38:13 theanh-VMware-Virtual-Platform logger[36443]: Memory usage high: 81%
+Aug 23 08:38:13 theanh-VMware-Virtual-Platform logger[36443]: Failed to connect to database, retry 10
+Aug 23 08:38:15 theanh-VMware-Virtual-Platform logger[36443]: Service running normally, cycle 11
+Aug 23 08:38:15 theanh-VMware-Virtual-Platform logger[36443]: Memory usage high: 92%
+Aug 23 08:38:15 theanh-VMware-Virtual-Platform logger[36443]: Failed to connect to database, retry 11
+Aug 23 08:38:17 theanh-VMware-Virtual-Platform logger[36443]: Service running normally, cycle 12
+Aug 23 08:38:17 theanh-VMware-Virtual-Platform logger[36443]: Memory usage high: 94%
+Aug 23 08:38:17 theanh-VMware-Virtual-Platform logger[36443]: Failed to connect to database, retry 12
+Aug 23 08:38:19 theanh-VMware-Virtual-Platform logger[36443]: Service running normally, cycle 13
+Aug 23 08:38:19 theanh-VMware-Virtual-Platform logger[36443]: Memory usage high: 94%
+Aug 23 08:38:19 theanh-VMware-Virtual-Platform logger[36443]: Failed to connect to database, retry 13
+Aug 23 08:38:21 theanh-VMware-Virtual-Platform logger[36443]: Service running normally, cycle 14
+Aug 23 08:38:21 theanh-VMware-Virtual-Platform logger[36443]: Memory usage high: 93%
+Aug 23 08:38:21 theanh-VMware-Virtual-Platform logger[36443]: Failed to connect to database, retry 14
+Aug 23 08:38:23 theanh-VMware-Virtual-Platform logger[36443]: Service running normally, cycle 15
+Aug 23 08:38:23 theanh-VMware-Virtual-Platform logger[36443]: Memory usage high: 85%
+Aug 23 08:38:23 theanh-VMware-Virtual-Platform logger[36443]: Failed to connect to database, retry 15
+Aug 23 08:38:25 theanh-VMware-Virtual-Platform systemd[1]: logger.service: Main process exited, code=dumped, status=6/ABRT
+Aug 23 08:38:25 theanh-VMware-Virtual-Platform systemd[1]: logger.service: Failed with result 'core-dump'.
+=== 2. Warning level and above ===
+Aug 23 08:37:55 theanh-VMware-Virtual-Platform logger[36443]: Memory usage high: 94%
+Aug 23 08:37:55 theanh-VMware-Virtual-Platform logger[36443]: Failed to connect to database, retry 1
+Aug 23 08:37:57 theanh-VMware-Virtual-Platform logger[36443]: Memory usage high: 86%
+Aug 23 08:37:57 theanh-VMware-Virtual-Platform logger[36443]: Failed to connect to database, retry 2
+Aug 23 08:37:59 theanh-VMware-Virtual-Platform logger[36443]: Memory usage high: 91%
+Aug 23 08:37:59 theanh-VMware-Virtual-Platform logger[36443]: Failed to connect to database, retry 3
+Aug 23 08:38:01 theanh-VMware-Virtual-Platform logger[36443]: Memory usage high: 84%
+Aug 23 08:38:01 theanh-VMware-Virtual-Platform logger[36443]: Failed to connect to database, retry 4
+Aug 23 08:38:03 theanh-VMware-Virtual-Platform logger[36443]: Memory usage high: 87%
+Aug 23 08:38:03 theanh-VMware-Virtual-Platform logger[36443]: Failed to connect to database, retry 5
+Aug 23 08:38:05 theanh-VMware-Virtual-Platform logger[36443]: Memory usage high: 87%
+Aug 23 08:38:05 theanh-VMware-Virtual-Platform logger[36443]: Failed to connect to database, retry 6
+Aug 23 08:38:07 theanh-VMware-Virtual-Platform logger[36443]: Memory usage high: 92%
+Aug 23 08:38:07 theanh-VMware-Virtual-Platform logger[36443]: Failed to connect to database, retry 7
+Aug 23 08:38:09 theanh-VMware-Virtual-Platform logger[36443]: Memory usage high: 84%
+Aug 23 08:38:09 theanh-VMware-Virtual-Platform logger[36443]: Failed to connect to database, retry 8
+Aug 23 08:38:11 theanh-VMware-Virtual-Platform logger[36443]: Memory usage high: 93%
+Aug 23 08:38:11 theanh-VMware-Virtual-Platform logger[36443]: Failed to connect to database, retry 9
+Aug 23 08:38:13 theanh-VMware-Virtual-Platform logger[36443]: Memory usage high: 81%
+Aug 23 08:38:13 theanh-VMware-Virtual-Platform logger[36443]: Failed to connect to database, retry 10
+Aug 23 08:38:15 theanh-VMware-Virtual-Platform logger[36443]: Memory usage high: 92%
+Aug 23 08:38:15 theanh-VMware-Virtual-Platform logger[36443]: Failed to connect to database, retry 11
+Aug 23 08:38:17 theanh-VMware-Virtual-Platform logger[36443]: Memory usage high: 94%
+Aug 23 08:38:17 theanh-VMware-Virtual-Platform logger[36443]: Failed to connect to database, retry 12
+Aug 23 08:38:19 theanh-VMware-Virtual-Platform logger[36443]: Memory usage high: 94%
+Aug 23 08:38:19 theanh-VMware-Virtual-Platform logger[36443]: Failed to connect to database, retry 13
+Aug 23 08:38:21 theanh-VMware-Virtual-Platform logger[36443]: Memory usage high: 93%
+Aug 23 08:38:21 theanh-VMware-Virtual-Platform logger[36443]: Failed to connect to database, retry 14
+Aug 23 08:38:23 theanh-VMware-Virtual-Platform logger[36443]: Memory usage high: 85%
+Aug 23 08:38:23 theanh-VMware-Virtual-Platform logger[36443]: Failed to connect to database, retry 15
+Aug 23 08:38:25 theanh-VMware-Virtual-Platform systemd[1]: logger.service: Main process exited, code=dumped, status=6/ABRT
+Aug 23 08:38:25 theanh-VMware-Virtual-Platform systemd[1]: logger.service: Failed with result 'core-dump'.
+=== 3. Error level and above ===
+Aug 23 08:37:55 theanh-VMware-Virtual-Platform logger[36443]: Failed to connect to database, retry 1
+Aug 23 08:37:57 theanh-VMware-Virtual-Platform logger[36443]: Failed to connect to database, retry 2
+Aug 23 08:37:59 theanh-VMware-Virtual-Platform logger[36443]: Failed to connect to database, retry 3
+Aug 23 08:38:01 theanh-VMware-Virtual-Platform logger[36443]: Failed to connect to database, retry 4
+Aug 23 08:38:03 theanh-VMware-Virtual-Platform logger[36443]: Failed to connect to database, retry 5
+Aug 23 08:38:05 theanh-VMware-Virtual-Platform logger[36443]: Failed to connect to database, retry 6
+Aug 23 08:38:07 theanh-VMware-Virtual-Platform logger[36443]: Failed to connect to database, retry 7
+Aug 23 08:38:09 theanh-VMware-Virtual-Platform logger[36443]: Failed to connect to database, retry 8
+Aug 23 08:38:11 theanh-VMware-Virtual-Platform logger[36443]: Failed to connect to database, retry 9
+Aug 23 08:38:13 theanh-VMware-Virtual-Platform logger[36443]: Failed to connect to database, retry 10
+Aug 23 08:38:15 theanh-VMware-Virtual-Platform logger[36443]: Failed to connect to database, retry 11
+Aug 23 08:38:17 theanh-VMware-Virtual-Platform logger[36443]: Failed to connect to database, retry 12
+Aug 23 08:38:19 theanh-VMware-Virtual-Platform logger[36443]: Failed to connect to database, retry 13
+Aug 23 08:38:21 theanh-VMware-Virtual-Platform logger[36443]: Failed to connect to database, retry 14
+Aug 23 08:38:23 theanh-VMware-Virtual-Platform logger[36443]: Failed to connect to database, retry 15
+=== 4. Log from the last 1 minute ===
+Aug 23 08:38:25 theanh-VMware-Virtual-Platform systemd[1]: logger.service: Main process exited, code=dumped, status=6/ABRT
+Aug 23 08:38:25 theanh-VMware-Virtual-Platform systemd[1]: logger.service: Failed with result 'core-dump'.
+=== 5. Crash point ===
+Aug 23 08:37:55 theanh-VMware-Virtual-Platform logger[36443]: Failed to connect to database, retry 1
+Aug 23 08:37:57 theanh-VMware-Virtual-Platform logger[36443]: Failed to connect to database, retry 2
+Aug 23 08:37:59 theanh-VMware-Virtual-Platform logger[36443]: Failed to connect to database, retry 3
+Aug 23 08:38:01 theanh-VMware-Virtual-Platform logger[36443]: Failed to connect to database, retry 4
+Aug 23 08:38:03 theanh-VMware-Virtual-Platform logger[36443]: Failed to connect to database, retry 5
+Aug 23 08:38:05 theanh-VMware-Virtual-Platform logger[36443]: Failed to connect to database, retry 6
+Aug 23 08:38:07 theanh-VMware-Virtual-Platform logger[36443]: Failed to connect to database, retry 7
+Aug 23 08:38:09 theanh-VMware-Virtual-Platform logger[36443]: Failed to connect to database, retry 8
+Aug 23 08:38:11 theanh-VMware-Virtual-Platform logger[36443]: Failed to connect to database, retry 9
+Aug 23 08:38:13 theanh-VMware-Virtual-Platform logger[36443]: Failed to connect to database, retry 10
+Aug 23 08:38:15 theanh-VMware-Virtual-Platform logger[36443]: Failed to connect to database, retry 11
+Aug 23 08:38:17 theanh-VMware-Virtual-Platform logger[36443]: Failed to connect to database, retry 12
+Aug 23 08:38:19 theanh-VMware-Virtual-Platform logger[36443]: Failed to connect to database, retry 13
+Aug 23 08:38:21 theanh-VMware-Virtual-Platform logger[36443]: Failed to connect to database, retry 14
+Aug 23 08:38:23 theanh-VMware-Virtual-Platform logger[36443]: Failed to connect to database, retry 15
