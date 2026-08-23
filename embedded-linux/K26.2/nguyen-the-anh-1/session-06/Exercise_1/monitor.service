@@ -1,0 +1,12 @@
+[Unit]
+Description=Monitor background service
+
+[Service]
+ExecStart=/usr/local/bin/monitor
+Restart=on-failure
+RestartSec=5
+StartLimitIntervalSec=30
+StartLimitBurst=3
+
+[Install]
+WantedBy=multi-user.target
